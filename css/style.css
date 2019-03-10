@@ -1,0 +1,88 @@
+
+@font-face {
+    font-family: "Helvetica-Regular";
+    src: url('../fonts/Helvetica-Regular.otf');
+}
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url('../fonts/Montserrat-Light.otf');
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url('../fonts/Montserrat-SemiBold.otf');
+}
+
+/*************************************
+*************** General **************
+*************************************/
+
+/** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: none !important;
+}*/
+
+body {
+  font-family: "Montserrat-Regular", sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  background: linear-gradient(to right,#2dce89,#11cdef);
+  color: #292622;
+}
+a{
+	text-decoration: none !important;
+}
+.header{
+	margin-top: 50px;
+	font-weight: 500;
+}
+svg{
+	fill: #ba2e1d;
+}
+.action-type{
+	margin: 25px;
+	font-size: 20px;
+	/*font-weight: bold;*/
+}
+.action-type a{
+	color: inherit;
+	text-decoration: none;
+}
+#generator{
+	margin-top: 40px;
+}
+#generate{
+	background: #ba2e1d;
+	width: 320px;
+	height: 50px;
+}
+textarea{
+	resize: none;
+/*	outline: 0;
+	border: 0;
+	border: 1px solid yellow !important;
+	border-radius: 0 !important;*/
+	width: 310px !important;
+}
+.label{
+	/*color: #000;*/
+	font-weight: 400;
+	line-height: 1.5;
+}
+.show-share{
+	display: block;
+	font-size: 20px;
+	color: #000;
+}
+footer{
+	margin-top: 70px;
+	background: #292622;
+	color: #fff;
+}
+.social-icons a{
+	color: #fff;
+}
