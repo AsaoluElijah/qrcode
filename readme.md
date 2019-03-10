@@ -6,6 +6,7 @@
 [![Made in Nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=flat-square)](https://github.com/acekyd/made-in-nigeria)
                                                                                                         
 # :100: QR CODE GENERATOR :100:
+</div>
 <br>
 
 `This is a simple qrcode generator web application built with jquery. All you need to do is :`
@@ -20,13 +21,11 @@ Its that simple
 # Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AsaoluElijah/qrcode/master/screenshots/s2.png" alt="Barcode Scanner">
+  <img src="https://github.com/AsaoluElijah/qrcode/blob/master/screenshots/s2.PNG" alt="Barcode Scanner">
     <br>
-  <img src="https://raw.githubusercontent.com/AsaoluElijah/qrcode/master/screenshots/s4.png" width="350" alt="Barcode Scanner | Generated">
+  <img src="https://github.com/AsaoluElijah/qrcode/blob/master/screenshots/s4.PNG" width="350" alt="Barcode Scanner | Generated">
     <br>
-  <img src="https://raw.githubusercontent.com/AsaoluElijah/qrcode/master/screenshots/s1.png" width="350" alt="Barcode Scanner | Generated">
+  <img src="https://github.com/AsaoluElijah/qrcode/blob/master/screenshots/s1.PNG" width="350" alt="Barcode Scanner | Loading">
 </p>
 <br>
 Qrcode-scanner library created by [https://github.com/jeromeetienne/jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode/)
-
-</div>
