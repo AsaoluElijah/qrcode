@@ -22,7 +22,6 @@ Its that simple
 
 <p align="center">
   <img src="https://github.com/AsaoluElijah/qrcode/blob/master/screenshots/s2.PNG" alt="Barcode Scanner">
-    <br>
   <img src="https://github.com/AsaoluElijah/qrcode/blob/master/screenshots/s4.PNG" width="350" alt="Barcode Scanner | Generated">
     <br>
   <img src="https://github.com/AsaoluElijah/qrcode/blob/master/screenshots/s1.PNG" width="350" alt="Barcode Scanner | Loading">
