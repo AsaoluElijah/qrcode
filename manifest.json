@@ -4,8 +4,8 @@
   "lang": "en-US",
   "start_url": "index.html",
   "display": "standalone",
-  "theme_color": "#FF9800",
-  "background_color": "#FF9800",
+  "theme_color": "#2dce89",
+  "background_color": "#2dce89",
   "icons": [
     {
       "src": "img/icon-128x128.png",
