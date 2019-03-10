@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Qr Scanner + Reader</title>
+		<link rel="manifest" href="manifest.json">
+	  	<meta charset="UTF-8" />
+	  	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  	<meta name="google-site-verification" content="X6nyCnC3LmeIdvORf1KZamUHmc6h0BHTYedwhBJ2Las" />
+	  	<meta name="keywords" Content="" />
+		<meta name="msapplication-TileImage" content="img/icon-128x128.png">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="feather-icon/feather.min.css">
+		<script src="js/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h3 class="header">
+			<center>
+				<img src="img/icon-128x128.png" style="width: 80px;height: 80px;">
+				<br><br>
+				<i class="fe fe-github"></i>
+					QR Generator
+				<i class="fe fe-feather"></i>
+				<hr>
+				<!-- <br> -->
+				<div class="action-type">
+						<img src="img/generator.png" style="width: 30px;height: 30px;">
+					<a href="#generator">Generate</a>
+							&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="#scanner">Scan</a>
+						<img src="img/scanner.png" style="width: 30px;height: 30px;">
+				</div>
+			</center>
+		</h3>
+		<section id="generator">
+			<center>
+				<div id="qrcode"></div>
+				<br>
+				<div class="share" style="display: none;">
+
+					<a href="#qrcode" download><i class="fe fe-download"></i></a>
+					<a href="#qrcode" download><i class="fe fe-send"></i></a>
+					
+				</div>
+				<label class="label typewrite" data-period="2000" data-type='[ "Enter the text u&#39;ll like to encode", "Share with friend","Don&#39;t forget to give a star on Github.","Enjoy!" ]'>Enter text:</label>
+				<span class="label wrap"></span>
+
+				<textarea rows="4" type="text" id="user-input" class="form-control" placeholder="Enter text to Encode"></textarea>
+				<br>
+				<button id="generate" class="btn btn-info">Generate <i class="fe fe-wind"></i></button>
+				<br><br>	
+			</center>
+		</section>
+	</div>
+	<footer>
+		<div class="container">
+			<br>
+			<center>
+				<i class="fe fe-code"></i> with <i class="fe fe-heart"></i> By <a href="https://asaoluelijah.github.io">Asaolu Elijah</a>
+			</center>
+			<br>
+			<div class="row">
+				<div class="col-md-4 col-sm-12 social-icons">
+					<a href="https://m.me/asaoluelijah01" class="fe fe-facebook"></a>
+						&nbsp;&nbsp;&nbsp;
+					<a href="https://instagram.com/thisis.asaoluelijah" class="fe fe-instagram"></a>
+						&nbsp;&nbsp;&nbsp;
+					<a href="https://twitter.com/asaoluelijah01" class="fe fe-twitter"></a>
+						&nbsp;&nbsp;&nbsp;
+					<a href="https://github.com/asaoluelijah" class="fe fe-github"></a>
+				</div>
+		        <div class=" col-md-4 col-sm-6">
+		          <div class="footer-thumb">
+		            <div class="shareButton">
+		              <a href="https://twitter.com/intent/tweet?&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-size="large"
+		                data-text="Hello there! there is this new web app developed by @asaoluelijah01 it let you generate and scan QR code, check it out https://asaoluelijah.github.io/qrcode"
+		                data-show-count="false">Tweet to @asaoluelijah01</a>
+		              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		              &nbsp;&nbsp;
+		              <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fasaoluelijah.github.io&layout=button&size=large&mobile_iframe=true&appId=1638690196224226&width=73&height=28"
+		                width="73" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+		                allowTransparency="true" allow="encrypted-media"></iframe>
+		            </div>
+		          </div>
+		        </div>
+
+		        <div class="col-md-4 col-sm-6">
+		          <div class="footer-thumb">
+		            <a class="github-button" href="https://github.com/AsaoluElijah/qrcode " data-icon="octicon-star "
+		              data-size="large " data-show-count="true" aria-label="Star AsaoluElijah/qrcode on GitHub ">Star</a>
+		            <a class="github-button" href="https://github.com/AsaoluElijah/qrcode/fork " data-icon="octicon-repo-forked "
+		              data-size="large " data-show-count="true" aria-label="Fork AsaoluElijah/qrcode on GitHub ">Fork</a>
+		            <a class="github-button" href="https://github.com/AsaoluElijah/qrcode/subscription" data-icon="octicon-eye"
+		              data-size="large" data-show-count="true" aria-label="Watch AsaoluElijah/qrcode on GitHub">Watch</a>
+		          </div>
+		        </div>
+		    </div>
+				<br><br>
+		</div>
+	</footer>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-qrcode.js"></script>
+  	<script async defer src="https://buttons.github.io/buttons.js"></script>
+	<script src="js/qrcode.js"></script>
+	<script src="js/main.js"></script>
+	
+	<script>
+	if ('serviceWorker' in navigator) {
+	  window.addEventListener('load', function() {
+	    navigator.serviceWorker.register('service-worker.js')
+	      .then(reg => {
+	        console.log('Service worker registered! 😎', reg);
+	      })
+	      .catch(err => {
+	        console.log('😥 Service worker registration failed: ', err);
+	      });
+	  });
+	}
+</script>
+</body>
+</html>
