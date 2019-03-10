@@ -8,6 +8,11 @@ const precacheResources = [
   'js/main.js',
   'js/jquery-qrcode.js',
   'js/qrcode.js',
+  'fonts/Helvetica-Regular.otf',
+  'fonts/Montserrat-Light.otf',
+  'fonts/Montserrat-Regular.ttf',
+  'fonts/Montserrat-SemiBold.otf',
+  'feather-icon/feather.min.css',
   'img/scanner.png',
   'img/generator.png',
   'img/icon-128x128.png'
