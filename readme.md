@@ -1,18 +1,15 @@
-<div align="center">
-                                                                                                      
-# :100: QR CODE GENERATOR :100:
-</div>
-<br>
+# Qr-code Generator :unicorn:
 
-`This is a simple qrcode generator web application built with jquery. All you need to do is :`
+> A modern web application for generating qrcode.
+
+## Instructions
 * Enter the text you'll like to encode :octocat:
-* Cick the `generate` button :bicycle:
-* Download your qrcode :blush:
-Its that simple
-<br><br>
-View live version here https://github.com/asaoluelijah/qrcode/
+* Cick the `generate` button
+* Download your qrcode.
 
-# Screenshots
+View live version [here](https://asaoluelijah.github.io/qrcode)
+
+## Screenshots
 
 <p align="center">
   <img src="https://github.com/AsaoluElijah/qrcode/blob/master/screenshots/s2.PNG" alt="Barcode Scanner">
@@ -21,4 +18,9 @@ View live version here https://github.com/asaoluelijah/qrcode/
   <img src="https://github.com/AsaoluElijah/qrcode/blob/master/screenshots/s1.PNG" width="350" alt="Barcode Scanner | Loading">
 </p>
 <br>
-Qrcode-scanner library created by [https://github.com/jeromeetienne/jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode/)
+
+## Reference
+Qrcode-scanner library created by [jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode/)
+
+## License
+[GNU](license.md)
